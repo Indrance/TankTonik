@@ -4,8 +4,7 @@ using System.Collections;
 public class ShotBehavior : MonoBehaviour
 {
     public float speed;
-
-    // Update is called once per frame
+    public GameObject m_smallExplosionPrefab;
     void Update()
     {
         transform.position += transform.forward * Time.deltaTime * speed;
@@ -16,12 +15,8 @@ public class ShotBehavior : MonoBehaviour
         if (other.gameObject.tag == "Environment")
         {
             Destroy(gameObject);
-        }
-        if (other.gameObject.tag == "Tank")
-        {
-            Destroy(gameObject);
-            Destroy(other.gameObject);
-          
+            GameObject smallExplosion = GameObject.Instantiate(m_smallExplosionPrefab, transform.position, transform.rotation) as GameObject;
+            GameObject.Destroy(smallExplosion, 1f);
         }
     }
 
