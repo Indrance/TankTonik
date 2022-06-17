@@ -4,17 +4,24 @@ using UnityEngine;
 using Photon.Pun;
 public class TankMovement : MonoBehaviourPunCallbacks
 {
+    public GameObject m_bigExplosionPrefab;
     public CharacterController controller;
 
     private Vector3 v_movement;
     private Vector3 velocity;
     public float gravity = -9.81f;
     public float speed = 6f;
+    private AudioSource mAudioExplosion;
+
+    private void Start()
+    {
+        mAudioExplosion = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (photonView.IsMine)
+        if (photonView.IsMine || !PhotonNetwork.IsConnected)
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
@@ -34,6 +41,18 @@ public class TankMovement : MonoBehaviourPunCallbacks
         {
             velocity.y += gravity * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
+        }
+    }
+
+    void OnCollisionEnter(Collision hit)
+    {
+        if (hit.gameObject.tag == "Shot")
+        {
+            Destroy(hit.gameObject);
+            Destroy(gameObject);
+            GameObject bigExplosion = GameObject.Instantiate(m_bigExplosionPrefab, gameObject.transform.position, gameObject.transform.rotation) as GameObject;
+            mAudioExplosion.Play();
+            GameObject.Destroy(bigExplosion, 1.6f);
         }
     }
 }
