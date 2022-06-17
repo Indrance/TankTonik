@@ -45,9 +45,9 @@ public class Cannon : MonoBehaviourPunCallbacks
             {
                 if (Time.time > m_shootRateTimeStamp)
                 {
-                    //shoot();
+                    shoot();
                     PhotonView photonView = PhotonView.Get(this);
-                    photonView.RPC("shoot", RpcTarget.All);
+                    //photonView.RPC("shoot", RpcTarget.All);
                     m_shootRateTimeStamp = Time.time + shootRate;
                 }
             }
