@@ -14678,9 +14678,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1943459015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df8878a1e7af1a5429c40267c319e6be, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ae0e1961ecf52c478668ffb0dd82a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_OrthographicCamera: {fileID: 1943459017}
+  wallTop: {fileID: 125647306}
+  shrinkingDuration: 15
+  shrinkingDelay: 0
+  endSize: 5
+  startSize: 20
+  startZPosition: -4.83
+  endZPosition: 11.54
 --- !u!4 &1948020819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4563802948693442, guid: 67a684e320da6e7439421a07e3fa265c,
