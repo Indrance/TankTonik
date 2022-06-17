@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: 3192709159178686034}
   - component: {fileID: 6221598356936006984}
   - component: {fileID: 6432152588358906735}
+  - component: {fileID: 4280658006888478944}
   m_Layer: 0
   m_Name: TankRenderers
   m_TagString: Untagged
@@ -206,9 +207,23 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 3192709159178686034}
   - {fileID: 6221598356936006984}
+  - {fileID: 4280658006888478944}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &4280658006888478944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595042382704870004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98fac77b304554f238a61572f5720187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 1
 --- !u!1 &8595042382704877906
 GameObject:
   m_ObjectHideFlags: 0
