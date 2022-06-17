@@ -25,7 +25,7 @@ public class TankMovement : MonoBehaviourPunCallbacks
             v_movement = controller.transform.forward * vertical;
             //v_movement = this.transform.forward * vertical;
 
-            controller.transform.Rotate(Vector3.up * horizontal * (100f * Time.deltaTime));
+            controller.transform.Rotate(Vector3.up * horizontal * (200f * Time.deltaTime));
             controller.Move(v_movement * speed * Time.deltaTime);
             /*this.transform.Rotate(Vector3.up * horizontal * (100f * Time.deltaTime));
             this.transform.position += (v_movement * speed * Time.deltaTime);*/
