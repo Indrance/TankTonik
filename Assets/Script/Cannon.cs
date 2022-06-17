@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class Cannon : MonoBehaviour
+public class Cannon : MonoBehaviourPunCallbacks
 {
     public float shootRate;
     private float m_shootRateTimeStamp;
@@ -13,15 +14,21 @@ public class Cannon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            if (Time.time > m_shootRateTimeStamp)
+        if (photonView.IsMine){
+            if (Input.GetKeyDown("space"))
             {
-                shoot();
-                m_shootRateTimeStamp = Time.time + shootRate;
+                if (Time.time > m_shootRateTimeStamp)
+                {
+                    //shoot();
+                    PhotonView photonView = PhotonView.Get(this);
+                    photonView.RPC("shoot", RpcTarget.All);
+                    m_shootRateTimeStamp = Time.time + shootRate;
+                }
             }
         }
     }
+
+    [PunRPC]
     void shoot()
     {
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
