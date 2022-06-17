@@ -4,6 +4,9 @@ using UnityEngine;
 using Photon.Pun;
 public class TankMovement : MonoBehaviourPunCallbacks
 {
+    [Tooltip("The local player instance. Use this to know if the local player is represented in the Scene")]
+    public static GameObject LocalPlayerInstance;
+
     public GameObject m_bigExplosionPrefab;
     public CharacterController controller;
 
@@ -21,7 +24,7 @@ public class TankMovement : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-        if (photonView.IsMine || !PhotonNetwork.IsConnected)
+        if (photonView.IsMine)
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
