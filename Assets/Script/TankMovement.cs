@@ -4,9 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 public class TankMovement : MonoBehaviourPunCallbacks
 {
-    [Tooltip("The local player instance. Use this to know if the local player is represented in the Scene")]
-    public static GameObject LocalPlayerInstance;
-
+    
     public GameObject m_bigExplosionPrefab;
     public CharacterController controller;
 
@@ -15,10 +13,7 @@ public class TankMovement : MonoBehaviourPunCallbacks
     public float gravity = -9.81f;
     public float speed = 6f;
 
-    private void Start()
-    {
-        
-    }
+   
 
     // Update is called once per frame
     void Update()
