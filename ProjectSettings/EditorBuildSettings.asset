@@ -10,13 +10,13 @@ EditorBuildSettings:
     guid: 81bf197b6ebc3bd40aafadc077fbb5fe
   - enabled: 1
     path: Assets/Scenes/Room for 1.unity
-    guid: b14e786ffe809cb429820ad8afd2a726
+    guid: ffbbc8c320490994b84754689fd6ca58
   - enabled: 1
     path: Assets/Scenes/Room for 2.unity
-    guid: 70e1a0eec7a156d428e242a360165da2
+    guid: 7e38445831f1bf84c87c3a3b76424e19
   - enabled: 1
     path: Assets/Scenes/Room for 3.unity
-    guid: e751bf748e67c384e92dfd487f26b4f2
+    guid: a295f3b49b8ecc34390e63efb4cea335
   - enabled: 1
     path: Assets/Scenes/Room for 4.unity
     guid: 3b3a35a9c60f4cf4c8e4283101ea9825

@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 95239892518830737}
   - component: {fileID: 8972600578169181768}
   - component: {fileID: 3208089920411251099}
+  - component: {fileID: -6425683784976763133}
+  - component: {fileID: 2334955074131085279}
+  - component: {fileID: 9214565733661300907}
   m_Layer: 0
   m_Name: Shell
   m_TagString: Shot
@@ -101,8 +104,6 @@ MonoBehaviour:
   speed: 100
   m_smallExplosionPrefab: {fileID: 532832564411978742, guid: 45b7ba569be2e754097ee2f9ddd7c7e1,
     type: 3}
-  m_bigExplosionPrefab: {fileID: 4808129674142814872, guid: bd37e1ef9f0e29c47894da2cddd3a8d8,
-    type: 3}
 --- !u!54 &8972600578169181768
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -132,3 +133,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2987081, y: 0.29870814, z: 0.5252612}
   m_Center: {x: 0, y: 0.000000007450581, z: 0.19800001}
+--- !u!114 &-6425683784976763133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5044918635665295139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 2334955074131085279}
+  - {fileID: 9214565733661300907}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &2334955074131085279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5044918635665295139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
+--- !u!114 &9214565733661300907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5044918635665295139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 0
+  m_TeleportIfDistanceGreaterThan: 3

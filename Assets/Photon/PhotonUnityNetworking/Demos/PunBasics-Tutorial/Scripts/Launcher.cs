@@ -89,6 +89,7 @@ namespace Photon.Pun.Demo.PunBasics
 		/// </summary>
 		public void Connect()
 		{
+			Debug.LogErrorFormat("Starting the connect process");
 			// we want to make sure the log is clear everytime we connect, we might have several failed attempted if connection failed.
 			progressPanel.SetActive(true);
 			Text feedbackText = progressPanel.GetComponentInChildren<Text>();

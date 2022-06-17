@@ -4,6 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 public class TankMovement : MonoBehaviourPunCallbacks
 {
+    
     public GameObject m_bigExplosionPrefab;
     public CharacterController controller;
 
@@ -12,15 +13,12 @@ public class TankMovement : MonoBehaviourPunCallbacks
     public float gravity = -9.81f;
     public float speed = 6f;
 
-    private void Start()
-    {
-        
-    }
+   
 
     // Update is called once per frame
     void Update()
     {
-        if (photonView.IsMine || !PhotonNetwork.IsConnected)
+        if (photonView.IsMine)
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
