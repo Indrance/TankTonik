@@ -10,15 +10,15 @@ public class ShotBehavior : MonoBehaviour
         transform.position += transform.forward * Time.deltaTime * speed;
     }
 
-
-
-    private void OnCollisionStay(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Environment")
+        if (other.gameObject.tag == "Environment")
         {
+            print("test");
             Destroy(gameObject);
             GameObject smallExplosion = GameObject.Instantiate(m_smallExplosionPrefab, transform.position, transform.rotation) as GameObject;
             GameObject.Destroy(smallExplosion, 1f);
         }
     }
+
 }
