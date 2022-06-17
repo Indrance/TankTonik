@@ -4,7 +4,6 @@ using System.Collections;
 public class ShotBehavior : MonoBehaviour
 {
     public float speed;
-    public float speedBell;
     public GameObject m_smallExplosionPrefab;
     void Update()
     {
