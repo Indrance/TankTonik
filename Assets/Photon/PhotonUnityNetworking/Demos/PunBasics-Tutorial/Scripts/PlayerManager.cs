@@ -33,13 +33,13 @@ namespace Photon.Pun.Demo.PunBasics
 
         #region Private Fields
 
-        [Tooltip("The Player's UI GameObject Prefab")]
-        [SerializeField]
-        private GameObject playerUiPrefab;
+        //[Tooltip("The Player's UI GameObject Prefab")]
+        //[SerializeField]
+        //private GameObject playerUiPrefab;
 
-        [Tooltip("The Beams GameObject to control")]
-        [SerializeField]
-        private GameObject beams;
+        //[Tooltip("The Beams GameObject to control")]
+        //[SerializeField]
+        //private GameObject beams;
 
         //True, when the user is firing
         bool IsFiring;
@@ -53,14 +53,14 @@ namespace Photon.Pun.Demo.PunBasics
         /// </summary>
         public void Awake()
         {
-            if (this.beams == null)
+            /*if (this.beams == null)
             {
                 Debug.LogError("<Color=Red><b>Missing</b></Color> Beams Reference.", this);
             }
             else
             {
                 this.beams.SetActive(false);
-            }
+            }*/
 
             // #Important
             // used in GameManager.cs: we keep track of the localPlayer instance to prevent instanciation when levels are synchronized
@@ -94,7 +94,7 @@ namespace Photon.Pun.Demo.PunBasics
             }
 
             // Create the UI
-            if (this.playerUiPrefab != null)
+            /*if (this.playerUiPrefab != null)
             {
                 GameObject _uiGo = Instantiate(this.playerUiPrefab);
                 _uiGo.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
@@ -102,7 +102,7 @@ namespace Photon.Pun.Demo.PunBasics
             else
             {
                 Debug.LogWarning("<Color=Red><b>Missing</b></Color> PlayerUiPrefab reference on player Prefab.", this);
-            }
+            }*/
 
             #if UNITY_5_4_OR_NEWER
             // Unity 5.4 has a new scene management. register a method to call CalledOnLevelWasLoaded.
@@ -141,10 +141,10 @@ namespace Photon.Pun.Demo.PunBasics
                 }
             }
 
-            if (this.beams != null && this.IsFiring != this.beams.activeInHierarchy)
+            /*if (this.beams != null && this.IsFiring != this.beams.activeInHierarchy)
             {
                 this.beams.SetActive(this.IsFiring);
-            }
+            }*/
         }
 
         /// <summary>
@@ -219,8 +219,8 @@ namespace Photon.Pun.Demo.PunBasics
                 transform.position = new Vector3(0f, 5f, 0f);
             }
 
-            GameObject _uiGo = Instantiate(this.playerUiPrefab);
-            _uiGo.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
+            //GameObject _uiGo = Instantiate(this.playerUiPrefab);
+            //_uiGo.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
         }
 
         #endregion

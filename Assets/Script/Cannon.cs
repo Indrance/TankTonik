@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class Cannon : MonoBehaviour
+public class Cannon : MonoBehaviourPunCallbacks
 {
     public float shootRate;
     private float m_shootRateTimeStamp;
@@ -39,16 +40,21 @@ public class Cannon : MonoBehaviour
                 transform.eulerAngles = new Vector3(transform.eulerAngles.x + 1, transform.eulerAngles.y, transform.eulerAngles.z);
             }
         }
-
-        if (Input.GetKeyDown("space"))
-        {
-            if (Time.time > m_shootRateTimeStamp)
+        if (photonView.IsMine){
+            if (Input.GetKeyDown("space"))
             {
-                shoot();
-                m_shootRateTimeStamp = Time.time + shootRate;
+                if (Time.time > m_shootRateTimeStamp)
+                {
+                    //shoot();
+                    PhotonView photonView = PhotonView.Get(this);
+                    photonView.RPC("shoot", RpcTarget.All);
+                    m_shootRateTimeStamp = Time.time + shootRate;
+                }
             }
         }
     }
+
+    [PunRPC]
     void shoot()
     {
         GameObject shell = GameObject.Instantiate(m_shotPrefab, transform.position, transform.rotation) as GameObject;
