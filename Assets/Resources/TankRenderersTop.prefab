@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8382490014875383811}
   - component: {fileID: 8360906272794662156}
+  - component: {fileID: 2248716669182666925}
   m_Layer: 0
   m_Name: Cannon
   m_TagString: Untagged
@@ -45,10 +46,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootRate: 0.1
+  m_shootRateTimeStamp: 0
   maxAngle: -45
   minAngle: 0
   m_shotPrefab: {fileID: 5044918635665295139, guid: e4922bfc92769054e9e38ec666a0bde1,
     type: 3}
+--- !u!114 &2248716669182666925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3928800091670498944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 0
 --- !u!1 &6330079246097156430
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,6 +84,7 @@ GameObject:
   - component: {fileID: 8559305174687913586}
   - component: {fileID: 8781127261127538773}
   - component: {fileID: 2015571716355945434}
+  - component: {fileID: 5886730411883358456}
   m_Layer: 0
   m_Name: TankRenderersTop
   m_TagString: Untagged
@@ -227,6 +246,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 1
+--- !u!114 &5886730411883358456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6330079246097156430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4178ea1e9a77b0a45abef5b495cb9f61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6330079246097164904
 GameObject:
   m_ObjectHideFlags: 0

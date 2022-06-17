@@ -6,7 +6,7 @@ using Photon.Pun;
 public class Cannon : MonoBehaviourPunCallbacks
 {
     public float shootRate;
-    private float m_shootRateTimeStamp;
+    public float m_shootRateTimeStamp;
     private float ScrollWheelChange;
     public float maxAngle;
     public float minAngle;
@@ -27,35 +27,24 @@ public class Cannon : MonoBehaviourPunCallbacks
             temp.x = 0;
             transform.rotation = Quaternion.Euler(temp);
         }
-
-        ScrollWheelChange = Input.GetAxis("Mouse ScrollWheel");
-        if (Mathf.Abs(ScrollWheelChange) > 0)
+        if (photonView.IsMine)
         {
-            if (ScrollWheelChange < 0)
+            ScrollWheelChange = Input.GetAxis("Mouse ScrollWheel");
+            if (Mathf.Abs(ScrollWheelChange) > 0)
             {
-                transform.eulerAngles = new Vector3(transform.eulerAngles.x - 1, transform.eulerAngles.y, transform.eulerAngles.z);
-            }
-            else if(ScrollWheelChange > 0)
-            {
-                transform.eulerAngles = new Vector3(transform.eulerAngles.x + 1, transform.eulerAngles.y, transform.eulerAngles.z);
-            }
-        }
-        if (photonView.IsMine){
-            if (Input.GetKeyDown("space"))
-            {
-                if (Time.time > m_shootRateTimeStamp)
+                if (ScrollWheelChange < 0)
                 {
-                    shoot();
-                    PhotonView photonView = PhotonView.Get(this);
-                    //photonView.RPC("shoot", RpcTarget.All);
-                    m_shootRateTimeStamp = Time.time + shootRate;
+                    transform.eulerAngles = new Vector3(transform.eulerAngles.x - 1, transform.eulerAngles.y, transform.eulerAngles.z);
+                }
+                else if (ScrollWheelChange > 0)
+                {
+                    transform.eulerAngles = new Vector3(transform.eulerAngles.x + 1, transform.eulerAngles.y, transform.eulerAngles.z);
                 }
             }
         }
     }
 
-    [PunRPC]
-    void shoot()
+    public void shoot()
     {
         GameObject shell = GameObject.Instantiate(m_shotPrefab, transform.position, transform.rotation) as GameObject;
     }
