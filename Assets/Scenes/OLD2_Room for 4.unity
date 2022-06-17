@@ -342,10 +342,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -407,7 +403,7 @@ GameObject:
   - component: {fileID: 42069993}
   m_Layer: 0
   m_Name: Tank Destroyed (1)
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -420,7 +416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42069992}
   m_LocalRotation: {x: -0, y: 0.96278876, z: -0, w: 0.27025515}
-  m_LocalPosition: {x: 33.06726, y: 0, z: 17.405546}
+  m_LocalPosition: {x: 15.690674, y: 105.95138, z: 48.51957}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -430,8 +426,8 @@ Transform:
   - {fileID: 650867558}
   - {fileID: 1659866692}
   - {fileID: 538244284}
-  m_Father: {fileID: 1385257745}
-  m_RootOrder: 2
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 148.641, z: 0}
 --- !u!1001 &43956246
 PrefabInstance:
@@ -587,10 +583,6 @@ PrefabInstance:
     - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
@@ -1007,7 +999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125647307}
   m_Layer: 0
-  m_Name: WallTop
+  m_Name: Wall (4)
   m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1123,7 +1115,7 @@ GameObject:
   - component: {fileID: 135598570}
   m_Layer: 0
   m_Name: Corner (2)
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1136,15 +1128,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135598569}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 16.59436, y: -0.0010157824, z: -3.4613237}
+  m_LocalPosition: {x: -0.78222656, y: 105.95036, z: 27.652702}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 766471191}
   - {fileID: 503825391}
   - {fileID: 1159212467}
-  m_Father: {fileID: 1385257745}
-  m_RootOrder: 0
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &140777072
 PrefabInstance:
@@ -1156,10 +1148,6 @@ PrefabInstance:
     - target: {fileID: 1380675926358774, guid: c560707c4ed2c4049a4a3cc98efb1539, type: 3}
       propertyPath: m_Name
       value: TurbineCover_02_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1380675926358774, guid: c560707c4ed2c4049a4a3cc98efb1539, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4485564400667208, guid: c560707c4ed2c4049a4a3cc98efb1539, type: 3}
       propertyPath: m_RootOrder
@@ -1235,7 +1223,7 @@ GameObject:
   - component: {fileID: 149023443}
   m_Layer: 0
   m_Name: Wall Pillars
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1247,8 +1235,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149023442}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1557.66, y: 0, z: 23.15}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.432251, y: 105.95138, z: 40.5027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1261,8 +1249,8 @@ Transform:
   - {fileID: 516259258}
   - {fileID: 513763688}
   - {fileID: 1935445973}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &151383583
 PrefabInstance:
@@ -1924,10 +1912,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Pillar_01_snaps002 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4598254112750806, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2204,10 +2188,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2268,7 +2248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 259275173}
   m_Layer: 0
-  m_Name: WallBottom
+  m_Name: Wall (3)
   m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2282,7 +2262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259275172}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -35.09, y: 0, z: 34.83}
+  m_LocalPosition: {x: -35.09, y: 0, z: 34.82}
   m_LocalScale: {x: -1, y: 1, z: 1.1119}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2570,7 +2550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 276014197}
   m_Layer: 0
-  m_Name: WallRight
+  m_Name: Wall (1)
   m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2667,6 +2647,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 302178668}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &324930328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1548227678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &362944976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2691,7 +2677,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362944976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1518.26, y: 0, z: 4.9400005}
+  m_LocalPosition: {x: 20.967773, y: 105.95138, z: 22.292702}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2699,8 +2685,8 @@ Transform:
   - {fileID: 276014197}
   - {fileID: 259275173}
   - {fileID: 125647307}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &364484607
 PrefabInstance:
@@ -3238,12 +3224,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472000611}
   m_LocalRotation: {x: 0.4693327, y: -0.4308926, z: 0.19771737, w: 0.74496055}
-  m_LocalPosition: {x: -889.8, y: 93.5, z: -321.6}
+  m_LocalPosition: {x: 649.4278, y: 199.45139, z: -304.2473}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 60.419, y: -67.6, z: -12.861}
 --- !u!114 &472000614
 MonoBehaviour:
@@ -3275,10 +3261,6 @@ PrefabInstance:
     - target: {fileID: 1101722472418354, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
       propertyPath: m_Name
       value: Quart_Wall_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1101722472418354, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4922272387448978, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
       propertyPath: m_RootOrder
@@ -3438,10 +3420,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Wall_Corner_snaps002
       objectReference: {fileID: 0}
-    - target: {fileID: 1967690543662780, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4795588130825752, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3504,10 +3482,6 @@ PrefabInstance:
     - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_Name
       value: Gale_Pillar_01_snaps002 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4598254112750806, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_RootOrder
@@ -3586,7 +3560,7 @@ GameObject:
   - component: {fileID: 538244285}
   m_Layer: 0
   m_Name: Shell
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3766,10 +3740,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3905,7 +3875,7 @@ GameObject:
   - component: {fileID: 598872337}
   m_Layer: 0
   m_Name: TankTracksRight
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4060,7 +4030,7 @@ GameObject:
   - component: {fileID: 625329603}
   m_Layer: 0
   m_Name: Shell
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4153,8 +4123,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630846514}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1527.51, y: 0.02, z: 20.52}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.717773, y: 105.971375, z: 37.872704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4167,8 +4137,8 @@ Transform:
   - {fileID: 1671751821}
   - {fileID: 2040846128}
   - {fileID: 780440449}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &649088703
 PrefabInstance:
@@ -4378,7 +4348,7 @@ GameObject:
   - component: {fileID: 650867559}
   m_Layer: 0
   m_Name: TankTracksRight
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4638,10 +4608,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Pillar_01_snaps002 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4598254112750806, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4779,7 +4745,7 @@ GameObject:
   - component: {fileID: 725104381}
   m_Layer: 0
   m_Name: TankTurret
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4934,7 +4900,7 @@ GameObject:
   - component: {fileID: 739163661}
   m_Layer: 0
   m_Name: TankChassis
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5259,10 +5225,6 @@ PrefabInstance:
     - target: {fileID: 1101722472418354, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
       propertyPath: m_Name
       value: Quart_Wall_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1101722472418354, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4922272387448978, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
       propertyPath: m_RootOrder
@@ -5622,10 +5584,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5687,7 +5645,7 @@ GameObject:
   - component: {fileID: 839757920}
   m_Layer: 0
   m_Name: Pillar
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5699,8 +5657,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839757919}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1537, y: 0.0009994507, z: 24.74}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.2277832, y: 105.95238, z: 42.0927}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5710,7 +5668,7 @@ Transform:
   - {fileID: 1043901486}
   - {fileID: 693323689}
   - {fileID: 513492302}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1540709491}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &867023305
@@ -5905,7 +5863,7 @@ GameObject:
   - component: {fileID: 873649329}
   m_Layer: 0
   m_Name: TankTracksRight
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6178,7 +6136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895488550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1519.166, y: -0.376, z: 21.668}
+  m_LocalPosition: {x: 20.061768, y: 105.57538, z: 39.0207}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6191,8 +6149,8 @@ Transform:
   - {fileID: 952939931}
   - {fileID: 1798684090}
   - {fileID: 1915186491}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &908937121
 PrefabInstance:
@@ -6372,10 +6330,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magic fire 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4166505909902172, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6529,10 +6483,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6600,10 +6550,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Pillar_01_snaps002 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4598254112750806, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6667,10 +6613,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6731,10 +6673,6 @@ PrefabInstance:
     - target: {fileID: 1872819607723068, guid: 094421f9be446df49b40d4ecedf1d4c2, type: 3}
       propertyPath: m_Name
       value: Quart_WallDoorFrame_01_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872819607723068, guid: 094421f9be446df49b40d4ecedf1d4c2, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4640179471571114, guid: 094421f9be446df49b40d4ecedf1d4c2, type: 3}
       propertyPath: m_RootOrder
@@ -6814,10 +6752,6 @@ PrefabInstance:
     - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_Name
       value: Magic fire 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4166505909902172, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_RootOrder
@@ -6974,7 +6908,7 @@ GameObject:
   - component: {fileID: 1055871484}
   m_Layer: 0
   m_Name: TankChassis
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7049,31 +6983,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1540709491}
     m_Modifications:
     - target: {fileID: 1615870902439666, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_Name
       value: Gale_Pillar_02_snaps002
       objectReference: {fileID: 0}
-    - target: {fileID: 1615870902439666, guid: 568f19399467fe54196f7374d3df0632, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1549.81
+      value: -10.582275
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.12394714
+      value: 105.82743
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.03
+      value: 32.3827
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7081,15 +7011,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7124,7 +7054,7 @@ GameObject:
   - component: {fileID: 1110665281}
   m_Layer: 0
   m_Name: Shell
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7464,10 +7394,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Wall_Corner_snaps002 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1967690543662780, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4795588130825752, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7535,7 +7461,7 @@ GameObject:
   - component: {fileID: 1178773753}
   m_Layer: 0
   m_Name: Tank Destroyed (2)
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7548,7 +7474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178773752}
   m_LocalRotation: {x: -0, y: 0.3518211, z: -0, w: 0.9360673}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -17.376587, y: 105.95138, z: 31.114025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7558,8 +7484,8 @@ Transform:
   - {fileID: 873649328}
   - {fileID: 1644940069}
   - {fileID: 1110665280}
-  m_Father: {fileID: 1385257745}
-  m_RootOrder: 3
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 41.198, z: 0}
 --- !u!4 &1183061398 stripped
 Transform:
@@ -7591,15 +7517,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185551772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1543.39, y: 0.0015351772, z: 6.83}
+  m_LocalPosition: {x: -4.1622314, y: 105.95291, z: 24.182701}
   m_LocalScale: {x: 1.05, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2021382147}
   - {fileID: 2127347112}
   - {fileID: 216630046}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1186462536
 PrefabInstance:
@@ -7745,10 +7671,6 @@ PrefabInstance:
     - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_Name
       value: Gale_Pillar_01_snaps002 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4598254112750806, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_RootOrder
@@ -7896,7 +7818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1232146833}
   m_Layer: 0
-  m_Name: WallLeft
+  m_Name: Wall
   m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7931,10 +7853,6 @@ PrefabInstance:
     - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
@@ -8010,7 +7928,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276706295}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1527.96, y: 0.0009999871, z: 0}
+  m_LocalPosition: {x: 11.267822, y: 105.95238, z: 17.352701}
   m_LocalScale: {x: 1.1119, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8018,8 +7936,8 @@ Transform:
   - {fileID: 1280413794}
   - {fileID: 233696734}
   - {fileID: 3193260}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1280413793
 GameObject:
@@ -8231,7 +8149,7 @@ GameObject:
   - component: {fileID: 1335930145}
   m_Layer: 0
   m_Name: Tank Destroyed
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8244,7 +8162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335930144}
   m_LocalRotation: {x: -0, y: 0.66637903, z: -0, w: 0.74561316}
-  m_LocalPosition: {x: 5.944336, y: 0, z: 9.868675}
+  m_LocalPosition: {x: -11.432251, y: 105.95138, z: 40.9827}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8254,8 +8172,8 @@ Transform:
   - {fileID: 598872336}
   - {fileID: 2095241605}
   - {fileID: 625329602}
-  m_Father: {fileID: 1385257745}
-  m_RootOrder: 1
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 83.576, z: 0}
 --- !u!1 &1346284770
 GameObject:
@@ -8300,10 +8218,6 @@ PrefabInstance:
     - target: {fileID: 1135203655215930, guid: 4d225f970f8e37d4e820f1cb8440987b, type: 3}
       propertyPath: m_Name
       value: Pipe_M_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1135203655215930, guid: 4d225f970f8e37d4e820f1cb8440987b, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4238871909904612, guid: 4d225f970f8e37d4e820f1cb8440987b, type: 3}
       propertyPath: m_RootOrder
@@ -8391,8 +8305,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351939074}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1519.4453, y: 1.7015343, z: 1.602}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.78247, y: 107.65291, z: 18.9547}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8403,9 +8317,15 @@ Transform:
   - {fileID: 728481}
   - {fileID: 157995879}
   - {fileID: 1111302989}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1362669282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4143405420243982, guid: 568f19399467fe54196f7374d3df0632,
+    type: 3}
+  m_PrefabInstance: {fileID: 1091701493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1376622263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8416,10 +8336,6 @@ PrefabInstance:
     - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_Name
       value: Gale_Wall_Support_01_snaps002 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1886350795832060, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4666773400454410, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
       propertyPath: m_RootOrder
@@ -8471,41 +8387,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8f2628ca1432b04b9b3052a2f28c208, type: 3}
---- !u!1 &1385257744
-GameObject:
+--- !u!1001 &1376779065
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1385257745}
-  m_Layer: 0
-  m_Name: Destroyed Tanks
-  m_TagString: Environment
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1385257745
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1385257744}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1556.6044, y: 0, z: 13.761324}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 135598570}
-  - {fileID: 1335930145}
-  - {fileID: 42069993}
-  - {fileID: 1178773753}
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5054738122210784565, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 81.23362
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 185.53122
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -29.834663
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054738122210784567, guid: 66bf7328aca734e4993f1878ed81984c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 66bf7328aca734e4993f1878ed81984c, type: 3}
 --- !u!1001 &1387782872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8676,7 +8626,7 @@ GameObject:
   - component: {fileID: 1389966579}
   m_Layer: 0
   m_Name: Cuves
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8688,16 +8638,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389966578}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1550.89, y: -0.3881, z: 34.01}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.662231, y: 105.56328, z: 51.3627}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1441395458}
   - {fileID: 123656936}
   - {fileID: 1729980291}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1402654221
 PrefabInstance:
@@ -8877,7 +8827,7 @@ GameObject:
   - component: {fileID: 1441395458}
   m_Layer: 0
   m_Name: Pipe
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9278,10 +9228,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Wall_snaps002
       objectReference: {fileID: 0}
-    - target: {fileID: 1101722472418354, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4922272387448978, guid: 2b49cf6b0e2134c4a81f3474c005ca8a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9586,32 +9532,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535552212}
   m_Mesh: {fileID: 4300000, guid: 00f2b76c2ea946747b936724c0a79591, type: 2}
+--- !u!1 &1540709490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540709491}
+  m_Layer: 0
+  m_Name: Temp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1540709491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540709490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -106, z: -36.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1943459018}
+  - {fileID: 324930328}
+  - {fileID: 472000613}
+  - {fileID: 1276706296}
+  - {fileID: 362944977}
+  - {fileID: 1735979983}
+  - {fileID: 895488551}
+  - {fileID: 1860904037}
+  - {fileID: 1185551773}
+  - {fileID: 1638720424}
+  - {fileID: 1389966579}
+  - {fileID: 1858943973}
+  - {fileID: 1924872970}
+  - {fileID: 630846515}
+  - {fileID: 1351939075}
+  - {fileID: 149023443}
+  - {fileID: 1681592950}
+  - {fileID: 135598570}
+  - {fileID: 1335930145}
+  - {fileID: 839757920}
+  - {fileID: 1362669282}
+  - {fileID: 42069993}
+  - {fileID: 1178773753}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1548227678
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1540709491}
     m_Modifications:
     - target: {fileID: 8828804563565601228, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_Name
       value: PowerSpot
       objectReference: {fileID: 0}
-    - target: {fileID: 8828804563565601228, guid: 537a5e593a1df744285a671e7570742c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.42537
+      value: 0.42537004
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
@@ -9621,22 +9616,22 @@ PrefabInstance:
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.42537
+      value: 0.42537004
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1541.7
+      value: -2.472168
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 105.95138
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.402
+      value: 54.7547
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
@@ -9646,7 +9641,7 @@ PrefabInstance:
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
@@ -9656,7 +9651,7 @@ PrefabInstance:
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8828804563565601229, guid: 537a5e593a1df744285a671e7570742c,
         type: 3}
@@ -10402,7 +10397,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638720423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1542.155, y: 0.9742746, z: 22.204508}
+  m_LocalPosition: {x: -2.927246, y: 106.92565, z: 39.55721}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10424,8 +10419,8 @@ Transform:
   - {fileID: 1920487409}
   - {fileID: 1387921914}
   - {fileID: 1694611717}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1640353248
 PrefabInstance:
@@ -10516,7 +10511,7 @@ GameObject:
   - component: {fileID: 1644940070}
   m_Layer: 0
   m_Name: TankTracksRight (1)
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10679,7 +10674,7 @@ GameObject:
   - component: {fileID: 1649531616}
   m_Layer: 0
   m_Name: TankChassis
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10839,10 +10834,6 @@ PrefabInstance:
     - target: {fileID: 1129152559590334, guid: 39566c1fc231155428127090e6dc14a5, type: 3}
       propertyPath: m_Name
       value: Pipe_M_Corner_02_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1129152559590334, guid: 39566c1fc231155428127090e6dc14a5, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4685548205411690, guid: 39566c1fc231155428127090e6dc14a5, type: 3}
       propertyPath: m_RootOrder
@@ -11087,7 +11078,7 @@ GameObject:
   - component: {fileID: 1659866693}
   m_Layer: 0
   m_Name: TankTracksRight (1)
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11283,7 +11274,7 @@ GameObject:
   - component: {fileID: 1681592950}
   m_Layer: 0
   m_Name: Tunnel
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11295,14 +11286,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681592949}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1540.86, y: -0.01, z: 26.72}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.6322021, y: 105.941376, z: 44.0727}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2125718450}
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1694611717 stripped
 Transform:
@@ -11560,10 +11551,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurbineCover_02_snaps002 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1380675926358774, guid: c560707c4ed2c4049a4a3cc98efb1539, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4485564400667208, guid: c560707c4ed2c4049a4a3cc98efb1539, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11646,7 +11633,7 @@ GameObject:
   - component: {fileID: 1732554687}
   m_Layer: 0
   m_Name: TankTurret
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11787,13 +11774,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735979980}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1558, y: 0, z: 0}
+  m_LocalPosition: {x: -18.772217, y: 105.95138, z: 17.352701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1780627140}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736092482
 PrefabInstance:
@@ -11968,10 +11955,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quart_Wall_Corner_snaps002
       objectReference: {fileID: 0}
-    - target: {fileID: 1967690543662780, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4795588130825752, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12031,7 +12014,7 @@ GameObject:
   - component: {fileID: 1764844022}
   m_Layer: 0
   m_Name: TankTurret
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12468,10 +12451,6 @@ PrefabInstance:
     - target: {fileID: 1967690543662780, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
       propertyPath: m_Name
       value: Quart_Wall_Corner_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1967690543662780, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4795588130825752, guid: 0c6b248aba0b073409356fa124dbe7a1, type: 3}
       propertyPath: m_RootOrder
@@ -13132,7 +13111,7 @@ GameObject:
   - component: {fileID: 1858943973}
   m_Layer: 0
   m_Name: Corner
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13144,15 +13123,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858943972}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1528.0007, y: -0.0010157824, z: 32.900566}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.227051, y: 105.95036, z: 50.253265}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 498460786}
   - {fileID: 1467860095}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1860904036
 GameObject:
@@ -13178,7 +13157,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860904036}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -1557.26, y: -0.376, z: 15.3}
+  m_LocalPosition: {x: -18.032227, y: 105.57538, z: 32.652702}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13191,8 +13170,8 @@ Transform:
   - {fileID: 1137810960}
   - {fileID: 704420077}
   - {fileID: 439231767}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1869068552
 PrefabInstance:
@@ -13969,7 +13948,7 @@ GameObject:
   - component: {fileID: 1924872970}
   m_Layer: 0
   m_Name: Corner (1)
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13982,14 +13961,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924872969}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -1552.4335, y: -0.0010157824, z: 25.048933}
+  m_LocalPosition: {x: -13.205688, y: 105.95036, z: 42.401634}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1519942419}
   - {fileID: 1797192930}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1540709491}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!4 &1935445973 stripped
 Transform:
@@ -14009,7 +13988,6 @@ GameObject:
   - component: {fileID: 1943459017}
   - component: {fileID: 1943459016}
   - component: {fileID: 1943459019}
-  - component: {fileID: 1943459020}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -14075,12 +14053,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943459015}
-  m_LocalRotation: {x: 0, y: 0.8433915, z: -0.53729963, w: 0}
-  m_LocalPosition: {x: -1538.3, y: 20, z: 27.4}
+  m_LocalRotation: {x: -0, y: 0.8433915, z: -0.53729963, w: 0}
+  m_LocalPosition: {x: 0.9277344, y: 125.95138, z: 44.7527}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1540709491}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 65, y: 180, z: 0}
 --- !u!114 &1943459019
@@ -14116,35 +14094,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1943459020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943459015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ae0e1961ecf52c478668ffb0dd82a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shrinkingDuration: 60
-  shrinkingDelay: 0
-  m_OrthographicCamera: {fileID: 1943459017}
-  endSize: 5
-  startSize: 20
-  wallTop: {fileID: 125647306}
-  startTopPosition: -4.83
-  endTopPosition: 11.54
-  wallLeft: {fileID: 1232146832}
-  startLeftPosition: 0
-  endLeftPosition: -15
-  wallBottom: {fileID: 259275172}
-  startBottomPosition: 34.83
-  endBottomPosition: 18.6
-  wallRight: {fileID: 276014196}
-  startRightPosition: -40
-  endRightPosition: -25
 --- !u!4 &1948020819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4563802948693442, guid: 67a684e320da6e7439421a07e3fa265c,
@@ -14245,10 +14194,6 @@ PrefabInstance:
     - target: {fileID: 1409081151409220, guid: 9727ae13651b3ec479e72087edcab97a, type: 3}
       propertyPath: m_Name
       value: Deck_FloorCeiling_01_snaps002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1409081151409220, guid: 9727ae13651b3ec479e72087edcab97a, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4679773111728864, guid: 9727ae13651b3ec479e72087edcab97a, type: 3}
       propertyPath: m_RootOrder
@@ -14551,10 +14496,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gale_Pillar_01_snaps002
       objectReference: {fileID: 0}
-    - target: {fileID: 1904250182534334, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
-      propertyPath: m_TagString
-      value: Environment
-      objectReference: {fileID: 0}
     - target: {fileID: 4598254112750806, guid: 3ab9a883bb2728d4ea8e56b33bcea8ba, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -14611,10 +14552,6 @@ PrefabInstance:
     - target: {fileID: 1129152559590334, guid: 39566c1fc231155428127090e6dc14a5, type: 3}
       propertyPath: m_Name
       value: Pipe_M_Corner_02_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1129152559590334, guid: 39566c1fc231155428127090e6dc14a5, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4685548205411690, guid: 39566c1fc231155428127090e6dc14a5, type: 3}
       propertyPath: m_RootOrder
@@ -14757,80 +14694,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2086010858}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2090842003
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6330079246097156430, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_Name
-      value: TankRenderersTop
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1533.9705
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.0009994507
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 18.423105
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6330079246097353982, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781127261127538773, guid: 15cf49e273b537d4ebdff7d2f94199af,
-        type: 3}
-      propertyPath: sceneViewId
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 15cf49e273b537d4ebdff7d2f94199af, type: 3}
 --- !u!1001 &2091743805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14841,10 +14704,6 @@ PrefabInstance:
     - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_Name
       value: Magic fire 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
-      propertyPath: m_TagString
-      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4166505909902172, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_RootOrder
@@ -15001,7 +14860,7 @@ GameObject:
   - component: {fileID: 2095241606}
   m_Layer: 0
   m_Name: TankTracksRight (1)
-  m_TagString: Environment
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
