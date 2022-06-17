@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 362944977}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1734,7 +1734,7 @@ Transform:
   - {fileID: 276014197}
   - {fileID: 816810343}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &364484607
 PrefabInstance:
@@ -2302,7 +2302,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 60.419, y: -96.44, z: -12.861}
 --- !u!114 &472000614
 MonoBehaviour:
@@ -3132,7 +3132,7 @@ GameObject:
   - component: {fileID: 777692112}
   m_Layer: 0
   m_Name: Decor 2
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3400,7 +3400,7 @@ Transform:
   - {fileID: 827371519}
   - {fileID: 591355015}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &895488550
 GameObject:
@@ -3413,7 +3413,7 @@ GameObject:
   - component: {fileID: 895488551}
   m_Layer: 0
   m_Name: Decor 1
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3849,7 +3849,7 @@ GameObject:
   - component: {fileID: 1185551773}
   m_Layer: 0
   m_Name: Decor 4
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4042,7 +4042,7 @@ GameObject:
   - component: {fileID: 1276706296}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4064,7 +4064,7 @@ Transform:
   - {fileID: 233696734}
   - {fileID: 3193260}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1280413793
 GameObject:
@@ -4728,7 +4728,7 @@ GameObject:
   - component: {fileID: 1523912784}
   m_Layer: 0
   m_Name: Vent_01_snaps002
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5193,7 +5193,7 @@ GameObject:
   - component: {fileID: 1638720424}
   m_Layer: 0
   m_Name: Decor 5
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5918,7 +5918,7 @@ GameObject:
   - component: {fileID: 1735979981}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6767,7 +6767,7 @@ GameObject:
   - component: {fileID: 1860904037}
   m_Layer: 0
   m_Name: Decor 3
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
