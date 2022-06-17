@@ -14,11 +14,10 @@ public class TankMovement : MonoBehaviourPunCallbacks
     private Vector3 velocity;
     public float gravity = -9.81f;
     public float speed = 6f;
-    private AudioSource mAudioExplosion;
 
     private void Start()
     {
-        mAudioExplosion = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -54,7 +53,6 @@ public class TankMovement : MonoBehaviourPunCallbacks
             Destroy(hit.gameObject);
             Destroy(gameObject);
             GameObject bigExplosion = GameObject.Instantiate(m_bigExplosionPrefab, gameObject.transform.position, gameObject.transform.rotation) as GameObject;
-            mAudioExplosion.Play();
             GameObject.Destroy(bigExplosion, 1.6f);
         }
     }
